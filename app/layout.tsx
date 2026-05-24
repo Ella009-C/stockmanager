@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "库存管理系统",
-  description: "多租户后台产品库存管理",
+  description: "Next.js 多租户产品库存管理",
 };
 
 export default function RootLayout({
