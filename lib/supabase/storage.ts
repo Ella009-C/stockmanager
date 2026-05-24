@@ -2,7 +2,7 @@ import {
   PRODUCT_IMAGES_BUCKET,
   SKU_IMAGES_BUCKET,
 } from "@/lib/auth/constants";
-import { createClient } from "@/lib/supabase/client";
+import { createClient } from "@/lib/supabase";
 
 export type StorageBucket =
   | typeof PRODUCT_IMAGES_BUCKET
