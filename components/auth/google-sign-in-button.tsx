@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { AUTH_CALLBACK_PATH } from "@/lib/auth/constants";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/client";
 import { toast } from "@/hooks/use-toast";
 
 export function GoogleSignInButton() {

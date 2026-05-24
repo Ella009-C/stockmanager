@@ -10,7 +10,7 @@ import {
   uploadTenantImage,
   type StorageBucket,
 } from "@/lib/supabase/storage";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/client";
 
 function validateImageFile(file: File): string | null {
   if (!ALLOWED_IMAGE_TYPES.includes(file.type as (typeof ALLOWED_IMAGE_TYPES)[number])) {

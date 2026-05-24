@@ -7,7 +7,7 @@ import { LogOut } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { LOGIN_PATH } from "@/lib/auth/constants";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 import { toast } from "@/hooks/use-toast";
 
