@@ -6,7 +6,7 @@ import { getCurrentUser } from "@/lib/auth/session";
 
 export const dynamic = "force-dynamic";
 
-export default async function DashboardLayout({
+export default async function ProductsLayout({
   children,
 }: {
   children: React.ReactNode;

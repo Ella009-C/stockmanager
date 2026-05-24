@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { AUTH_CALLBACK_PATH } from "@/lib/auth/constants";
-import { createClient } from "@/lib/supabase/client";
+import { createClient } from "@/lib/supabase";
 import { toast } from "@/hooks/use-toast";
 
 export function GoogleSignInButton() {
@@ -40,7 +40,7 @@ export function GoogleSignInButton() {
       onClick={handleGoogleSignIn}
     >
       <GoogleIcon />
-      {loading ? "跳转中…" : "使用谷歌登录"}
+      {loading ? "跳转中…" : "使用 Google 账号登录"}
     </Button>
   );
 }
